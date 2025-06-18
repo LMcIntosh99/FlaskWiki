@@ -3,9 +3,9 @@ from config import BASE_URL
 
 sample_documents = [
     {
-        'title': 'WikiTest',
+        'title': 'McIntosh',
         'json': {
-            'content': 'This is the WikiTest wiki'
+            'content': 'This is the McIntosh wiki'
         }
     },
     {

@@ -5,9 +5,9 @@ from config import BASE_URL
 
 sample_documents = [
     {
-        'title': 'WikiTest',
+        'title': 'FlaskWiki',
         'json': {
-            'content': 'This is the WikiTest wiki'
+            'content': 'This is the FlaskWiki wiki'
         }
     },
     {
