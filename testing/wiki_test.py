@@ -1,8 +1,8 @@
 import unittest
 import requests
 from populate_database import populate
+from config import BASE_URL
 
-BASE_URL = "http://127.0.0.1:5000/"
 
 class RestTest(unittest.TestCase):
 

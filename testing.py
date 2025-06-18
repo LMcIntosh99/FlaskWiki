@@ -1,8 +1,8 @@
 # File for testing wiki.py, ignore
 
 import requests
+from config import BASE_URL
 
-BASE_URL = 'http://127.0.0.1:5000/'
 sample_documents = [
     {
         'title': 'WikiTest',
