@@ -141,7 +141,8 @@ class TimestampDocument(Resource):
 
 
 # Create tables and database
-db.create_all()
+with app.app_context():
+    db.create_all()
 api = Api(app)
 
 # Add routes to API
